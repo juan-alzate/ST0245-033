@@ -8,22 +8,22 @@
 public class Counter
 {
     private String id;
-    private int c;
+    private int contador;
     
     public Counter(String id){
         this.id = id;
-        c = 1;
+        contador = 1;
     }
     
     public void incrementar(){
-        c++;
+        contador++;
     }
     
     public int incrementos(){
-        return c;
+        return contador;
     }
     
     public String toString(){
-       return "El contador quedó en: " + c;
+       return "El contador quedó en: " + contador;
     }
 }
